@@ -37,4 +37,13 @@ document.addEventListener('DOMContentLoaded', function() {
             }, index * 150);
         });
     }, 900);
+    
+    // 버튼 클릭 이벤트
+    document.querySelector('.teacher-btn').addEventListener('click', function() {
+        window.location.href = 'https://dgfz.aidt.me/demos?id=cnDDMoVANU8&user_type=teacher';
+    });
+    
+    document.querySelector('.student-btn').addEventListener('click', function() {
+        window.location.href = 'https://dgfz.aidt.me/demos?id=cnDDMoVANU8&user_type=student';
+    });
 });
